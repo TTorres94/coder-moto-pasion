@@ -1,0 +1,14 @@
+.itemListContainer{
+    width:100%;
+    height:90vh;
+    background-image:url(../../images/38724.jpg);
+    background-image: no-repeat;
+    background-image: center;
+    background-size: 100% 100%;
+}
+
+
+.itemListContainer h1{
+    padding-top:70px;
+    padding-left: 30px;
+}
