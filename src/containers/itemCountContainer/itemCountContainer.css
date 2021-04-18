@@ -1,0 +1,11 @@
+.counterContainer{
+    width:400px;
+    height:100px;
+    margin:auto;
+}
+
+.counter{
+    width:50px;
+    display:Flex;
+    justify-content:space-between;
+}
