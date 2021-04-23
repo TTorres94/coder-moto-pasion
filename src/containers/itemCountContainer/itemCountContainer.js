@@ -22,8 +22,6 @@ export default function ItemCount(props){
     function decrement () {
         if(initialNumber >= 2){
             setNumber(initialNumber - 1)
-        }else{
-            
         }
     }
 

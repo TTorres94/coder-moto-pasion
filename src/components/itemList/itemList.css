@@ -1,0 +1,13 @@
+.itemList{
+    height:83%;
+    width:83%;
+    margin-top:10px;
+    background-color:#E2E1DF;
+    border-radius:30px;
+    display:flex;
+    justify-content: space-around;
+}
+
+.itemList div{
+    cursor:pointer;
+}
