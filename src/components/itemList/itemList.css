@@ -8,6 +8,13 @@
     justify-content: space-around;
 }
 
-.itemList div{
+.itemList h3{
     cursor:pointer;
+    height:30px;
+}
+
+.divMostrador{
+    background-color:red;
+    height:50px;
+    width:50px;
 }

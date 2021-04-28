@@ -5,6 +5,9 @@ import Item from './item'
 export default function ItemList({item}) {
 
 
+    
+
+
     return (
 
         
@@ -13,7 +16,7 @@ export default function ItemList({item}) {
                 {
                     
                     item.map((element) => {
-                    return(<Item key= {element.id} item={element}/>)
+                    return(<Item key= {element.id} item={element} />)
                     })
                 }
         

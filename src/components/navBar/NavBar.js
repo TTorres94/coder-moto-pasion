@@ -30,10 +30,10 @@ export default function ButtonAppBar() {
           <Typography variant="h6" className={classes.title}>
             MOTOPASIÓN
           </Typography>
-          <Typography variant="h10" className={classes.title}>
+          <Typography variant="h6" className={classes.title}>
           <Button>Nuevas</Button>
           </Typography>
-          <Typography variant="h10" className={classes.title}>
+          <Typography variant="h6" className={classes.title}>
             <Button>Usadas</Button>
           </Typography>
           <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">

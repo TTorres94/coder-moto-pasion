@@ -18,21 +18,21 @@ export default function ItemListContainer (props){
     let objeto = [
         {
             id:1, 
-            title: 'Item 1',
+            title: 'Ninja 1000',
             description:'hola',
             price:1000,
-            pictureUrl:'probando'
+            pictureUrl:''
         },
         {
             id:2, 
-            title: 'Item 2',
+            title: 'Ninja 400',
             description:'hola',
             price:1000,
             pictureUrl:'probando'
         },
         {
             id:3, 
-            title: 'Item 3',
+            title: 'Mt03',
             description:'hola',
             price:1000,
             pictureUrl:'probando'
