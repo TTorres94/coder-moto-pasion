@@ -31,7 +31,7 @@ export default function ItemListContainer (props){
             pictureUrl:'probando'
         },
         {
-            id:3, 
+            id:54, 
             title: 'Mt03',
             description:'hola',
             price:1000,

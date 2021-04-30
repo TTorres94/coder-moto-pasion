@@ -1,31 +1,21 @@
 import React from 'react'
-
-
-
-
-
+import { useHistory } from 'react-router-dom'
 
 export default function Item({item}) {
 
-     
-    function showDetail (){
-        console.log(item.title)
+    const history = useHistory()
 
-        return(
-            <div>
-                <img src="#" alt=''></img>
-                <h3>{item.title}</h3>
-                <h5>{item.description}</h5>
-                <h5>{item.price}</h5>
-            </div>
-        )
+    function handleClick(){
+
+        history.push(`/categories/${item.id}`)
+        
+
     }
+    
    
-
-
     return (
         <div>
-            <h3 onClick={showDetail}>{item.title}</h3>
+            <h3 onClick={handleClick}>{item.title}</h3>
         </div>
             
         
