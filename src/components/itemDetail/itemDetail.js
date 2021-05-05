@@ -1,24 +1,25 @@
-import React, {useState, useEffect} from 'react'   
+import React from 'react'
+import ItemCountContainer from '../../containers/itemCountContainer/itemCountContainer'
 import {useParams} from 'react-router-dom'
+import { objeto } from '../../containers/itemListContainer/itemListContainer'
 
-const { promesaEjercicio } = require('../../containers/itemListContainer/itemListContainer')
+
+
 
 export default function ItemDetail() {
     
     const { categoriesId } = useParams();
-    const {setItems, Items} = useState({id:'', 
-        title: '',
-        description:'',
-        price:''});
 
-    useEffect(() => {
-        
-    })
+    let filtrado = objeto.filter((item) =>  item.id === parseInt(categoriesId));
+
+    
+    
     
     
     return (
         <div>
-             {categoriesId}
+             <h1>{filtrado[0].description}</h1>
+             <ItemCountContainer />
         </div>
     )
 }

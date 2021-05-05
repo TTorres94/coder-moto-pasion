@@ -1,5 +1,6 @@
 import React from 'react'
 import { useHistory } from 'react-router-dom'
+import './item.css'
 
 export default function Item({item}) {
 
@@ -14,8 +15,9 @@ export default function Item({item}) {
     
    
     return (
-        <div>
+        <div className='item'>
             <h3 onClick={handleClick}>{item.title}</h3>
+            <img src={item.pictureUrl}  alt='' />
         </div>
             
         
